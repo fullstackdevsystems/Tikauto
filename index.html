@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TikAuto - TikTok Content Workflow</title>
+
+    <meta name="description"
+          content="TikAuto helps creators manage their TikTok content queue, monitor post performance and prepare future publications.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0b0f;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            border-bottom: 1px solid #24242d;
+            background: #111116;
+        }
+
+        nav {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #fe2c55;
+        }
+
+        nav a {
+            color: #dddddd;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #25f4ee;
+        }
+
+        .hero {
+            max-width: 1000px;
+            margin: auto;
+            padding: 100px 20px 80px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 720px;
+            margin: auto;
+            font-size: 20px;
+            color: #b8b8c2;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-bottom: 25px;
+            padding: 8px 16px;
+            border: 1px solid #25f4ee;
+            border-radius: 30px;
+            color: #25f4ee;
+            font-size: 14px;
+        }
+
+        .section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 70px 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 45px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #15151c;
+            border: 1px solid #292933;
+            border-radius: 16px;
+            padding: 30px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #25f4ee;
+        }
+
+        .card p {
+            color: #b8b8c2;
+        }
+
+        .how {
+            background: #111116;
+        }
+
+        .steps {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .step {
+            margin-bottom: 25px;
+            padding: 25px;
+            border-left: 4px solid #fe2c55;
+            background: #15151c;
+            border-radius: 8px;
+        }
+
+        .step strong {
+            color: #25f4ee;
+        }
+
+        .notice {
+            max-width: 850px;
+            margin: 50px auto 0;
+            padding: 25px;
+            border: 1px solid #33333d;
+            border-radius: 12px;
+            color: #b8b8c2;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 50px;
+            border-top: 1px solid #24242d;
+            padding: 35px 20px;
+            text-align: center;
+            color: #999999;
+        }
+
+        footer a {
+            color: #cccccc;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #25f4ee;
+        }
+
+        @media (max-width: 650px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Tik<span>Auto</span></div>
+
+        <div>
+            <a href="#features">Features</a>
+            <a href="#how">How it works</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </div>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+    <div class="badge">
+        Content workflow for TikTok creators
+    </div>
+
+    <h1>
+        Manage your TikTok content workflow
+    </h1>
+
+    <p>
+        TikAuto helps creators organize their content queue,
+        monitor the performance of their latest TikTok posts
+        and prepare future publications through a simple and
+        controlled workflow.
+    </p>
+
+</section>
+
+
+<section class="section" id="features">
+
+    <h2>What TikAuto Does</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Post Monitoring</h3>
+
+            <p>
+                Monitor performance information for authorized
+                TikTok posts, including view activity when
+                available through the TikTok API.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <h3>Content Queue</h3>
+
+            <p>
+                Organize images and content that creators plan
+                to publish and prevent previously processed
+                content from being unintentionally reused.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <h3>Publication Preparation</h3>
+
+            <p>
+                Prepare captions, hashtags and publication
+                information before content is submitted to
+                TikTok.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <h3>Secure Connection</h3>
+
+            <p>
+                TikAuto connects to TikTok using official
+                authorization methods. Users do not provide
+                their TikTok password directly to TikAuto.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section how" id="how">
+
+    <h2>How It Works</h2>
+
+    <div class="steps">
+
+        <div class="step">
+            <strong>1. Connect your TikTok account</strong>
+
+            <p>
+                The creator authorizes TikAuto through TikTok's
+                official authentication process.
+            </p>
+        </div>
+
+
+        <div class="step">
+            <strong>2. Add content</strong>
+
+            <p>
+                Creators organize content that they want to
+                prepare for future TikTok publications.
+            </p>
+        </div>
+
+
+        <div class="step">
+            <strong>3. Monitor performance</strong>
+
+            <p>
+                TikAuto can retrieve authorized post information
+                through TikTok's official APIs.
+            </p>
+        </div>
+
+
+        <div class="step">
+            <strong>4. Prepare the next publication</strong>
+
+            <p>
+                When configured conditions are met, TikAuto can
+                prepare the next item in the creator's content
+                queue for publication.
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="notice">
+
+        TikAuto is an independent application and is not owned,
+        endorsed or operated by TikTok. TikTok is a trademark of
+        its respective owner.
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 TikAuto
+    </p>
+
+    <br>
+
+    <a href="privacy.html">
+        Privacy Policy
+    </a>
+
+    <a href="terms.html">
+        Terms of Service
+    </a>
+
+</footer>
+
+</body>
+</html>
